@@ -1,11 +1,9 @@
 import './App.css';
-import { createStore } from 'redux';
-import allReducers from './state/store';
 import { Provider } from 'react-redux';
 import Counter from './components/Counter';
+import store from './state/store/store';
 
 
-let store = createStore(allReducers,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
 function App() {
   return (

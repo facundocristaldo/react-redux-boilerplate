@@ -1,8 +1,7 @@
 import {INCREMENT, DECREMENT} from '../actions/actionTypes';
 
-const initialState = {count:0, lastAction:undefined}
 
-const counterReducer = (state = initialState, action) => {
+const counterReducer = (state={count:0, lastAction:undefined}, action) => {
     switch (action.type) {
         case INCREMENT:
             return {

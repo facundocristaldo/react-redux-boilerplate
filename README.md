@@ -8,6 +8,6 @@ Made with npx create-react-app
 
 ## Npm packages needed
 
-npm i redux react-redux
+npm i redux react-redux redux-thunk redux-devtools-extension
 
 
